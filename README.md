@@ -3,6 +3,7 @@ Image filtering microservice that receives an image_url and downloads the image 
 
 - Built with Nodejs and Typescript
 - Deployed on AWS Elastic beanstalk
+- Here's a sample ebs endpoint to filter an image `http://uche-image-filter-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://mcdn.wallpapersafari.com/medium/49/9/jmz80P.jpg`
 # How to setup:
 - git clone https://github.com/ucheg6/image-filter.git
 - npm install
